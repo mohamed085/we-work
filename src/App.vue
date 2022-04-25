@@ -1,32 +1,88 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
+<script>
+
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import 'animate.css';
+@import "assets/scss/variables";
+
+@font-face {
+  font-family: 'We work Regular';
+  src: url(assets/fonts/SWCC-2-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'We work Medium';
+  src: url(assets/fonts/SWCC-3-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'We work Bold';
+  src: url(assets/fonts/SWCC-4-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'The Sans Arabic';
+  src: url(assets/fonts/THESANSARABIC-BOLD.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
 nav {
-  padding: 30px;
+  position: fixed;
+  top: 0;
 
   a {
-    font-weight: bold;
     color: #2c3e50;
 
-    &.router-link-exact-active {
+    &.active {
       color: #42b983;
     }
   }
 }
+
+.breadcrumb-section {
+  color: $color-white;
+
+  &__link {
+    color: $color-white;
+    margin: 0 5px;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-white;
+      text-decoration: none;
+      padding-bottom: 8px;
+      border-bottom: 1px solid $color-white;
+    }
+  }
+
+  &__icon, &__span {
+    margin: 0 5px;
+
+  }
+}
+
+.title-section__text {
+  color: $color-white;
+  font-weight: 700 !important;
+  font-size: 28px;
+  font-family: 'The Sans Arabic' !important;
+  line-height: 1.4;
+  letter-spacing: 3px;
+}
+
+.calendar-section {
+  color: $color-white;
+  padding: 0 10px;
+}
+
+
 </style>

@@ -1,0 +1,85 @@
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+
+  &--main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    font-family: "We work Bold";
+  }
+
+  &--sub {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    animation: moveInRight 1s ease-out;
+    font-family: "We work Medium";
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .heading-primary--main {
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
+  .heading-primary--sub {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
