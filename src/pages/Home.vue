@@ -384,11 +384,6 @@ export default {
           right: 0;
           left: 0;
           bottom: 0;
-          background: -webkit-linear-gradient(90deg, rgba(127, 191, 65, 0) 0%, rgba(255, 255, 255, 0.9) 60%, rgba(255, 255, 255, 1) 100%);
-          background: linear-gradient(90deg, rgba(127, 191, 65, 0) 0%, rgba(255, 255, 255, 0.9) 60%, rgba(255, 255, 255, 1) 100%);
-          background-image: url(../assets/img/hero-after.png);
-          background-size: cover;
-          background-repeat: no-repeat;
 
           &:after {
             position: absolute;
@@ -396,7 +391,12 @@ export default {
             left: 0;
             right: 0;
             height: 100%;
-            content: ""
+            content: "";
+            background: -webkit-linear-gradient(90deg, rgba(127, 191, 65, 0) 0%, rgba(255, 255, 255, 0.9) 60%, rgba(255, 255, 255, 1) 100%);
+            background: linear-gradient(90deg, rgba(127, 191, 65, 0) 0%, rgba(255, 255, 255, 0.9) 60%, rgba(255, 255, 255, 1) 100%);
+            background-image: url(../assets/img/hero-after.png);
+            background-size: cover;
+            background-repeat: no-repeat;
           }
         }
 
@@ -597,8 +597,13 @@ export default {
         &.active {
           height: 10px;
         }
+
       }
     }
+  }
+
+  .slider__owl-main__slide-items__item__bg {
+    opacity: .3;
   }
 
   .slider__owl-main__slide-items__item__content {

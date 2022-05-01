@@ -35,17 +35,15 @@
 * {
   box-sizing: border-box;
 }
-nav {
-  position: fixed;
-  top: 0;
 
-  a {
-    color: #2c3e50;
+.ar {
+  text-align: right;
+  direction: rtl;
+}
 
-    &.active {
-      color: #42b983;
-    }
-  }
+.en {
+  text-align: left;
+  direction: ltr;
 }
 
 .breadcrumb-section {

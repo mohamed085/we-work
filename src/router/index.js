@@ -1,21 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import ProjectsView from "@/pages/Projects/ProjectsView";
 import Home from "@/pages/Home";
-import Test from "@/pages/Test";
-// import WebsitesView from "@/pages/Projects/WebsitesView";
-// import MobileApplicationsView from "@/pages/Projects/MobileApplicationsView";
-// import MobileAppView from "@/pages/Projects/MobileAppView";
+import Projects from "@/pages/Projects/Index";
+import MobileApps from "@/pages/Projects/MobileApps";
+import Websites from "@/pages/Projects/Websites";
+import ProjectsCategory from "@/pages/Projects/ProjectsCategory";
 
 Vue.use(VueRouter)
 
 const routes = [
     { path: '/', component: Home },
-    { path: '/projects', component: ProjectsView },
-    { path: '/test', component: Test },
-    // { path: '/websites', component: WebsitesView },
-    // { path: '/mobile-applications', component: MobileApplicationsView },
-    // { path: '/mobile-app/:id', component: MobileAppView },
+    { path: '/projects', component: Projects },
+    { path: '/mobile-applications', component: MobileApps },
+    { path: '/websites', component: Websites },
+    { path: '/projects/:id', component: ProjectsCategory },
 ]
 
 const router = new VueRouter({
