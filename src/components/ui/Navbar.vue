@@ -16,161 +16,17 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto mr-5">
-            <b-nav-item @click="displayDropdown('homeDropdownSection')"
-                        href="#">Home
-              <i v-if="!homeDropdownSection" class="fas fa-angle-down"></i>
-              <i v-else class="fas fa-angle-up"></i>
-
-              <div v-if="homeDropdownSection" class="dropdown-mobile-section home-dropdown-section">
-                <b-navbar-nav class="mt-2">
-                  <b-nav-item to="/">Home</b-nav-item>
-                </b-navbar-nav>
-              </div>
-            </b-nav-item>
-
-            <b-nav-item @click="displayDropdown('projectDropdownSection')"
-                        href="#">Projects
-              <i v-if="!projectDropdownSection" class="fas fa-angle-down"></i>
-              <i v-else class="fas fa-angle-up"></i>
-
-              <div v-if="projectDropdownSection" class="dropdown-mobile-section home-dropdown-section">
-                <b-navbar-nav class="mt-2">
-                  <b-nav-item to="/projects">All projects</b-nav-item>
-                  <b-nav-item to="/interior-design">Interior Design</b-nav-item>
-                  <b-nav-item to="/exterior-design">Exterior Design</b-nav-item>
-                  <b-nav-item to="/shop-drawing">Shop Drawing</b-nav-item>
-                  <b-nav-item to="/websites">Websites</b-nav-item>
-                  <b-nav-item to="/mobile-applications">Mobile Applications</b-nav-item>
-                  <b-nav-item to="/ui-ux">UI \ UX</b-nav-item>
-                  <b-nav-item to="/motion-graphics">Motion Graphics</b-nav-item>
-                  <b-nav-item to="/photography">Photography</b-nav-item>
-                </b-navbar-nav>
-              </div>
-            </b-nav-item>
-
-            <b-nav-item href="#">Team  <i class="fas fa-angle-down"></i></b-nav-item>
+            <b-nav-item href="/">Home <i class="fas fa-angle-down"></i></b-nav-item>
+            <b-nav-item href="/Projects">Projects <i class="fas fa-angle-down"></i></b-nav-item>
             <b-nav-item href="#">Services <i class="fas fa-angle-down"></i></b-nav-item>
+            <b-nav-item href="/team">Team  <i class="fas fa-angle-down"></i></b-nav-item>
             <b-nav-item href="#">Clients <i class="fas fa-angle-down"></i></b-nav-item>
-            <b-nav-item href="#">Join us <i class="fas fa-angle-down"></i></b-nav-item>
+            <b-nav-item href="/join-us">Join us <i class="fas fa-angle-down"></i></b-nav-item>
             <b-nav-item href="#">About us <i class="fas fa-angle-down"></i></b-nav-item>
-            <b-nav-item href="#">Contact us <i class="fas fa-angle-down"></i></b-nav-item>
+            <b-nav-item href="/contact">Contact us <i class="fas fa-angle-down"></i></b-nav-item>
           </b-navbar-nav>
-
         </b-collapse>
       </b-navbar>
-
-
-      <div v-if="homeDropdownSection"
-           :class="{stickyDropdown: scrollPosition > 40}"
-           class="dropdown-section home-dropdown-section">
-
-        <div class="dropdown-section__container">
-          <div class="home">
-            Home
-          </div>
-          <div class="dropdown-section__initi-grad-bg"></div>
-        </div>
-
-      </div>
-
-      <div v-if="projectDropdownSection"
-           :class="{stickyDropdown: scrollPosition > 40}"
-           class="dropdown-section home-dropdown-section">
-
-        <div class="dropdown-section__container">
-          <div class="projects-categories row">
-            <div class="projects-category col-3">
-              <h3 class="projects-category__title">
-                <i class="fas fa-bullseye"></i>
-                <span>All projects</span>
-              </h3>
-              <div class="projects-category__content">
-                <ul class="projects-category__content__items">
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/projects">Discover all projects</router-link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="projects-category col-3">
-              <h3 class="projects-category__title">
-                <i class="fas fa-bullseye"></i>
-                <span>Decoration</span>
-              </h3>
-
-              <div class="projects-category__content">
-                <ul class="projects-category__content__items">
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/interior-design">
-                      Interior Design
-                    </router-link>
-                  </li>
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/exterior-design">
-                      Exterior Design
-                    </router-link>
-                  </li>
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/shop-drawing">
-                      Shop Drawing
-                    </router-link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="projects-category col-3">
-              <h3 class="projects-category__title">
-                <i class="fas fa-bullseye"></i>
-                <span>Software Engineering</span>
-              </h3>
-
-              <div class="projects-category__content">
-                <ul class="projects-category__content__items">
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/websites">
-                      Websites
-                    </router-link>
-                  </li>
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/mobile-applications">
-                      Mobile Applications
-                    </router-link>
-                  </li>
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/ui-ux">
-                      UI \ UX
-                    </router-link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="projects-category col-3">
-              <h3 class="projects-category__title">
-                <i class="fas fa-bullseye"></i>
-                <span>Marketing</span>
-              </h3>
-
-              <div class="projects-category__content">
-                <ul class="projects-category__content__items">
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/motion-graphics">
-                      Motion Graphics
-                    </router-link>
-                  </li>
-                  <li class="projects-category__content__items__item">
-                    <router-link class="projects-category__content__items__item__link" to="/photography">
-                      Photography
-                    </router-link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown-section__initi-grad-bg"></div>
-        </div>
-      </div>
     </div>
 
     <div v-else-if="getLang === 'ar'" class="ar">
@@ -186,45 +42,14 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="mr-auto mr-5">
-            <b-nav-item @click="displayDropdown('homeDropdownSection')"
-                        href="#">الصفحة الرئيسية
-              <i v-if="!homeDropdownSection" class="fas fa-angle-down"></i>
-              <i v-else class="fas fa-angle-up"></i>
-
-              <div v-if="homeDropdownSection" class="dropdown-mobile-section home-dropdown-section">
-                <b-navbar-nav class="mt-2">
-                  <b-nav-item to="/">الصفحة الرئيسية</b-nav-item>
-
-                </b-navbar-nav>
-              </div>
-            </b-nav-item>
-
-            <b-nav-item @click="displayDropdown('projectDropdownSection')"
-                        href="#">المشاريع
-              <i v-if="!projectDropdownSection" class="fas fa-angle-down"></i>
-              <i v-else class="fas fa-angle-up"></i>
-
-              <div v-if="projectDropdownSection" class="dropdown-mobile-section home-dropdown-section">
-                <b-navbar-nav class="mt-2">
-                  <b-nav-item to="/projects">كل المشاريع</b-nav-item>
-                  <b-nav-item to="/interior-design">تصميم داخلي</b-nav-item>
-                  <b-nav-item to="/exterior-design">التصميم الخارجي</b-nav-item>
-                  <b-nav-item to="/shop-drawing">تصورات السوق</b-nav-item>
-                  <b-nav-item to="/websites">مواقع الويب</b-nav-item>
-                  <b-nav-item to="/mobile-applications">تطبيقات الهاتف الجوال</b-nav-item>
-                  <b-nav-item to="/ui-ux">UI \ UX</b-nav-item>
-                  <b-nav-item to="/motion-graphics">الرسوم المتحركة</b-nav-item>
-                  <b-nav-item to="/photography">التصوير</b-nav-item>
-                </b-navbar-nav>
-              </div>
-            </b-nav-item>
-
-            <b-nav-item href="/asd">الفريق</b-nav-item>
+            <b-nav-item href="/">الصفحة الرئيسية</b-nav-item>
+            <b-nav-item href="/projects">المشاريع</b-nav-item>
             <b-nav-item href="/sad">الخدمات</b-nav-item>
+            <b-nav-item href="/team">الفريق</b-nav-item>
             <b-nav-item href="/asd">العملاء</b-nav-item>
-            <b-nav-item href="/sad">انضم إلينا</b-nav-item>
+            <b-nav-item href="/join-us">انضم إلينا</b-nav-item>
             <b-nav-item href="/sad">معلومات عنا</b-nav-item>
-            <b-nav-item href="/sad">اتصل بنا</b-nav-item>
+            <b-nav-item href="/contact">اتصل بنا</b-nav-item>
           </b-navbar-nav>
 
         </b-collapse>

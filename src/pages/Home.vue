@@ -1,22 +1,6 @@
 <template>
   <div class="body">
-<!--    <navbar></navbar>-->
-
-    <div class="social-media">
-      <div class="social-media__initi-grad-bg"></div>
-      <div class="social-media__content">
-        <a href="https://www.facebook.com/" target="_blank" class="social-media__content__button"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/" target="_blank" class="social-media__content__button"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/" target="_blank" class="social-media__content__button"><i class="fab fa-youtube"></i></a>
-        <a href="https://www.facebook.com/" target="_blank" class="social-media__content__button"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.facebook.com/" target="_blank" class="social-media__content__button"><i class="fab fa-snapchat"></i></a>
-        <a href="https://www.facebook.com/" target="_blank" class="social-media__content__button"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    </div>
-
-    <div class="hidden" :class="{scroll: scrollPosition > 300}">
-      <button @click="upToTop" class="arrow-btn"><i class="fas fa-chevron-up"></i></button>
-    </div>
+    <navbar></navbar>
 
     <div class=" ar" v-if="getLang === 'ar'">
       <div class="slider">
@@ -155,15 +139,16 @@
 </template>
 
 <script>
-// import Navbar from "@/components/ui/Navbar";
+import Navbar from "@/components/ui/Navbar";
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Home",
-  // components: {Navbar},
+  components: {
+    Navbar
+  },
   data() {
     return {
-      scrollPosition: null,
       slider_1: true,
       slider_2: false,
       slider_3: false,
@@ -173,7 +158,6 @@ export default {
     window.setInterval(() => {
       this.displaySlider('next')
     }, 10000);
-    window.addEventListener('scroll', this.updateScroll);
 
   },
   computed: {
@@ -184,12 +168,6 @@ export default {
   methods: {
     setLang(lang) {
       this.$store.dispatch('main/setLang', lang);
-    },
-    updateScroll() {
-      this.scrollPosition = window.scrollY
-    },
-    upToTop() {
-      window.scrollTo(0,0)
     },
     displaySlider(slider) {
       if (slider == 'slider_1') {
@@ -251,106 +229,14 @@ export default {
 @import "../assets/scss/variables";
 @import "../assets/scss/typography";
 
+
 .body {
   height: 6000px;
-}
-
-.hidden {
-  display: none;
-}
-
-.scroll {
-  display: block;
-  position: fixed;
-  right: 5%;
-  bottom: 5%;
-}
-
-.arrow-btn {
-  border: none;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background: linear-gradient(90deg, $color-primary-light, $color-primary-dark-1);
-
-  &:hover {
-    transform: scale(1.2);
-  }
-
-  & i {
-    color: $color-white;
-    font-size: 30px;
-  }
 }
 
 .ar {
   direction: rtl;
   text-align: right;
-}
-
-.social-media {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -35%);
-  z-index: 1000;
-  height: auto;
-  width: auto;
-  transition: 0.3s;
-
-  &__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    background: white;
-    border-radius: 0 8px 40px 0 !important;
-    background-position-x: 0 !important;
-    background-size: 100% !important;
-    box-shadow: 0 0 20px #0000000d;
-    position: relative;
-    word-wrap: break-word;
-
-    &__button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 10px;
-      color: $color-white;
-      width: 30px;
-      height: 30px;
-      background: $color-grey-dark-2;
-      border-radius: 100px !important;
-      text-decoration: none;
-
-      &:hover {
-        background: linear-gradient(90deg, $color-primary-light, $color-primary-dark-1);
-      }
-    }
-
-    & i {
-      color: $color-white;
-      transition: 0.4s all;
-    }
-  }
-
-  &__initi-grad-bg {
-    z-index: -1;
-    left: 0 !important;
-    right: 0 !important;
-    background: linear-gradient(90deg, $color-primary-light, $color-primary-dark-1);
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 5px;
-    bottom: 0;
-    border-radius: 8px !important;
-  }
-
 }
 
 .slider {
@@ -562,9 +448,6 @@ export default {
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards;
 }
-
-
-
 
 @media (max-width: 1024px) {
   .social-media__content__button {

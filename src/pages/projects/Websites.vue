@@ -4,7 +4,6 @@
       <navbar></navbar>
     </div>
 
-
     <div class="ar" v-if="getLang === 'ar'">
       <div class="page-header">
         <div class="container">
@@ -36,16 +35,17 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">تطبيق تست</h3>
                       <div class="app__content__body__desc__text">
-                        <p>الخدمات المتاحة بالتطبيق خدمات الأنشطة التجارية خدمة حاسبة الرسوم خدمة بلاغات 940 تقديم بلاغ جديد متابعة البلاغات السابق تقديمها إرسال شكوى…</p>
+                        <p>النص ما ازداد وضوحا على الظاهر لمعنى المتكلم، وهو سوق الكلام لأجل ذلك المعنى، فإذا قيل أحسنوا إلى فلان الذي يفرح بفرحي ويغتم بغمي، كان نصا في بيان محبته.
+                        </p>
                       </div>
-                      <router-link to="" class="app__content__body__desc__btn">شاهد المزيد</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">شاهد المزيد</router-link>
                     </div>
                   </div>
                 </div>
@@ -57,16 +57,17 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">تطبيق تست</h3>
                       <div class="app__content__body__desc__text">
-                        <p>الخدمات المتاحة بالتطبيق خدمات الأنشطة التجارية خدمة حاسبة الرسوم خدمة بلاغات 940 تقديم بلاغ جديد متابعة البلاغات السابق تقديمها إرسال شكوى…</p>
+                        <p>النص ما ازداد وضوحا على الظاهر لمعنى المتكلم، وهو سوق الكلام لأجل ذلك المعنى، فإذا قيل أحسنوا إلى فلان الذي يفرح بفرحي ويغتم بغمي، كان نصا في بيان محبته.
+                        </p>
                       </div>
-                      <router-link to="" class="app__content__body__desc__btn">شاهد المزيد</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">شاهد المزيد</router-link>
                     </div>
                   </div>
                 </div>
@@ -78,16 +79,17 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">تطبيق تست</h3>
                       <div class="app__content__body__desc__text">
-                        <p>الخدمات المتاحة بالتطبيق خدمات الأنشطة التجارية خدمة حاسبة الرسوم خدمة بلاغات 940 تقديم بلاغ جديد متابعة البلاغات السابق تقديمها إرسال شكوى…</p>
+                        <p>النص ما ازداد وضوحا على الظاهر لمعنى المتكلم، وهو سوق الكلام لأجل ذلك المعنى، فإذا قيل أحسنوا إلى فلان الذي يفرح بفرحي ويغتم بغمي، كان نصا في بيان محبته.
+                        </p>
                       </div>
-                      <router-link to="" class="app__content__body__desc__btn">شاهد المزيد</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">شاهد المزيد</router-link>
                     </div>
                   </div>
                 </div>
@@ -99,16 +101,17 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">تطبيق تست</h3>
                       <div class="app__content__body__desc__text">
-                        <p>الخدمات المتاحة بالتطبيق خدمات الأنشطة التجارية خدمة حاسبة الرسوم خدمة بلاغات 940 تقديم بلاغ جديد متابعة البلاغات السابق تقديمها إرسال شكوى…</p>
+                        <p>النص ما ازداد وضوحا على الظاهر لمعنى المتكلم، وهو سوق الكلام لأجل ذلك المعنى، فإذا قيل أحسنوا إلى فلان الذي يفرح بفرحي ويغتم بغمي، كان نصا في بيان محبته.
+                        </p>
                       </div>
-                      <router-link to="" class="app__content__body__desc__btn">شاهد المزيد</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">شاهد المزيد</router-link>
                     </div>
                   </div>
                 </div>
@@ -120,16 +123,17 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">تطبيق تست</h3>
                       <div class="app__content__body__desc__text">
-                        <p>الخدمات المتاحة بالتطبيق خدمات الأنشطة التجارية خدمة حاسبة الرسوم خدمة بلاغات 940 تقديم بلاغ جديد متابعة البلاغات السابق تقديمها إرسال شكوى…</p>
+                        <p>النص ما ازداد وضوحا على الظاهر لمعنى المتكلم، وهو سوق الكلام لأجل ذلك المعنى، فإذا قيل أحسنوا إلى فلان الذي يفرح بفرحي ويغتم بغمي، كان نصا في بيان محبته.
+                        </p>
                       </div>
-                      <router-link to="" class="app__content__body__desc__btn">شاهد المزيد</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">شاهد المزيد</router-link>
                     </div>
                   </div>
                 </div>
@@ -141,16 +145,17 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">تطبيق تست</h3>
                       <div class="app__content__body__desc__text">
-                        <p>الخدمات المتاحة بالتطبيق خدمات الأنشطة التجارية خدمة حاسبة الرسوم خدمة بلاغات 940 تقديم بلاغ جديد متابعة البلاغات السابق تقديمها إرسال شكوى…</p>
+                        <p>النص ما ازداد وضوحا على الظاهر لمعنى المتكلم، وهو سوق الكلام لأجل ذلك المعنى، فإذا قيل أحسنوا إلى فلان الذي يفرح بفرحي ويغتم بغمي، كان نصا في بيان محبته.
+                        </p>
                       </div>
-                      <router-link to="" class="app__content__body__desc__btn">شاهد المزيد</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">شاهد المزيد</router-link>
                     </div>
                   </div>
                 </div>
@@ -162,16 +167,17 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">تطبيق تست</h3>
                       <div class="app__content__body__desc__text">
-                        <p>الخدمات المتاحة بالتطبيق خدمات الأنشطة التجارية خدمة حاسبة الرسوم خدمة بلاغات 940 تقديم بلاغ جديد متابعة البلاغات السابق تقديمها إرسال شكوى…</p>
+                        <p>النص ما ازداد وضوحا على الظاهر لمعنى المتكلم، وهو سوق الكلام لأجل ذلك المعنى، فإذا قيل أحسنوا إلى فلان الذي يفرح بفرحي ويغتم بغمي، كان نصا في بيان محبته.
+                        </p>
                       </div>
-                      <router-link to="" class="app__content__body__desc__btn">شاهد المزيد</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">شاهد المزيد</router-link>
                     </div>
                   </div>
                 </div>
@@ -213,14 +219,14 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">Project Test</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      <router-link to="" class="app__content__body__desc__btn">See more</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">See more</router-link>
                     </div>
                   </div>
                 </div>
@@ -232,14 +238,14 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">Project Test</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      <router-link to="" class="app__content__body__desc__btn">See more</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">See more</router-link>
                     </div>
                   </div>
                 </div>
@@ -251,14 +257,14 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">Project Test</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      <router-link to="" class="app__content__body__desc__btn">See more</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">See more</router-link>
                     </div>
                   </div>
                 </div>
@@ -270,14 +276,14 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">Project Test</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      <router-link to="" class="app__content__body__desc__btn">See more</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">See more</router-link>
                     </div>
                   </div>
                 </div>
@@ -289,14 +295,14 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">Project Test</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      <router-link to="" class="app__content__body__desc__btn">See more</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">See more</router-link>
                     </div>
                   </div>
                 </div>
@@ -308,14 +314,14 @@
                 <div class="app__content">
                   <div class="app__content__body">
                     <div class="app__content__body__img">
-                      <router-link to="">
+                      <router-link to="/website/1356">
                         <img src="../../assets/img/websites/1.png">
                       </router-link>
                     </div>
                     <div class="app__content__body__desc">
                       <h3 class="app__content__body__desc__title">Project Test</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      <router-link to="" class="app__content__body__desc__btn">See more</router-link>
+                      <router-link to="/website/1356" class="app__content__body__desc__btn">See more</router-link>
                     </div>
                   </div>
                 </div>
@@ -380,12 +386,7 @@ a {
 }
 
 .page-header {
-  ackground-color: $color-primary;
-  background-image: url(../../assets/img/bg-home.jpg);
-  background-size: cover;
-  background-position: center;
   padding-top: 100px;
-  padding-bottom: 40px;
 }
 
 .apps {

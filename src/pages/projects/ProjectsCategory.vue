@@ -293,12 +293,7 @@ a {
 }
 
 .page-header {
-  ackground-color: $color-primary;
-  background-image: url(../../assets/img/bg-home.jpg);
-  background-size: cover;
-  background-position: center;
   padding-top: 100px;
-  padding-bottom: 40px;
 }
 
 .main {

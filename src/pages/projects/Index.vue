@@ -24,7 +24,7 @@
         </div>
       </div>
 
-      <main class="pt-5 pb-5 mb-5">
+      <main class="pt-5 pb-5">
 
         <!-- Mobile apps -->
         <div class="section">
@@ -45,14 +45,14 @@
             >
               <div class="section__content">
                 <div class="mobile-apps">
-                  <router-link class="mobile-apps__app" to="">
+                  <router-link class="mobile-apps__app" to="/mobile-application/613265">
                     <img src="../../assets/img/mobile_apps/mobiles1-600.png">
                   </router-link>
-                  <router-link class="mobile-apps__app" to="">
-                    <img src="../../assets/img/mobile_apps/mobiles2-600.png">
+                  <router-link class="mobile-apps__app" to="/mobile-application/613265">
+                    <img src="../../assets/img/mobile_apps/mobiles1-600.png">
                   </router-link>
-                  <router-link class="mobile-apps__app" to="">
-                    <img src="../../assets/img/mobile_apps/mobiles3-600.png">
+                  <router-link class="mobile-apps__app" to="/mobile-application/613265">
+                    <img src="../../assets/img/mobile_apps/mobiles1-600.png">
                   </router-link>
                 </div>
               </div>
@@ -344,7 +344,7 @@
 
         <!-- Motion Graphics apps -->
         <div class="section">
-          <router-link to="projects/132568">
+          <router-link to="/motion-graphic">
             <div class="section__container row">
             <div class="section__sub-1 col-12 col-md-3">
               <div class="section__title">
@@ -488,7 +488,7 @@
         </div>
       </div>
 
-      <main class="pt-5 pb-5 mb-5">
+      <main class="pt-5 pb-5">
 
         <!-- Mobile apps -->
         <div class="section">
@@ -509,14 +509,14 @@
             >
               <div class="section__content">
                 <div class="mobile-apps">
-                  <router-link class="mobile-apps__app" to="">
+                  <router-link class="mobile-apps__app" to="/mobile-application/613265">
                     <img src="../../assets/img/mobile_apps/mobiles1-600.png">
                   </router-link>
-                  <router-link class="mobile-apps__app" to="">
-                    <img src="../../assets/img/mobile_apps/mobiles2-600.png">
+                  <router-link class="mobile-apps__app" to="/mobile-application/613265">
+                    <img src="../../assets/img/mobile_apps/mobiles1-600.png">
                   </router-link>
-                  <router-link class="mobile-apps__app" to="">
-                    <img src="../../assets/img/mobile_apps/mobiles3-600.png">
+                  <router-link class="mobile-apps__app" to="/mobile-application/613265">
+                    <img src="../../assets/img/mobile_apps/mobiles1-600.png">
                   </router-link>
                 </div>
               </div>
@@ -808,7 +808,7 @@
 
         <!-- Motion Graphics apps -->
         <div class="section">
-          <router-link to="projects/132568">
+          <router-link to="/motion-graphic">
             <div class="section__container row">
             <div class="section__sub-1 col-12 col-md-3">
               <div class="section__title">
@@ -980,7 +980,6 @@ a {
   }
 }
 
-
 .projects {
   background: $color-grey-light-4;
 }
@@ -991,12 +990,7 @@ a {
 }
 
 .page-header {
-  ackground-color: $color-primary;
-  background-image: url(../../assets/img/bg-home.jpg);
-  background-size: cover;
-  background-position: center;
   padding-top: 100px;
-  padding-bottom: 40px;
 }
 
 .section {
