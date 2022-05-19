@@ -113,7 +113,7 @@
                     <div class="design-item">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -124,7 +124,7 @@
                     <div class="design-item mobile-hidden">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -135,7 +135,7 @@
                     <div class="design-item mobile-hidden">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -174,7 +174,7 @@
                     <div class="design-item">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -185,7 +185,7 @@
                     <div class="design-item mobile-hidden">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -196,7 +196,7 @@
                     <div class="design-item mobile-hidden">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -235,7 +235,7 @@
                     <div class="design-item">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -246,7 +246,7 @@
                     <div class="design-item mobile-hidden">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -257,7 +257,7 @@
                     <div class="design-item mobile-hidden">
                       <div class="design-item__box-grad"></div>
                       <div class="design-item__content">
-                        <router-link to="">
+                        <router-link to="/project/1236">
                           <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                         </router-link>
                         <div class="design-item__content__title">
@@ -296,7 +296,7 @@
                   <div class="design-item">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="/project/1236">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -307,7 +307,7 @@
                   <div class="design-item mobile-hidden">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="/project/1236">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -318,7 +318,7 @@
                   <div class="design-item mobile-hidden">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="/project/1236">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -357,7 +357,7 @@
                   <div class="design-item">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="motion-graphic/4513">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -368,7 +368,7 @@
                   <div class="design-item mobile-hidden">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="motion-graphic/4513">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -379,7 +379,7 @@
                   <div class="design-item mobile-hidden">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="motion-graphic/4513">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -418,7 +418,7 @@
                   <div class="design-item">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="/project/1236">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -429,7 +429,7 @@
                   <div class="design-item mobile-hidden">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="/project/1236">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">
@@ -440,7 +440,7 @@
                   <div class="design-item mobile-hidden">
                     <div class="design-item__box-grad"></div>
                     <div class="design-item__content">
-                      <router-link to="">
+                      <router-link to="/project/1236">
                         <img class="design-item__content__img" src="../../assets/img/interior-design/BaDROOM.jpg">
                       </router-link>
                       <div class="design-item__content__title">

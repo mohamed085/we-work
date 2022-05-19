@@ -20,9 +20,9 @@
             <b-nav-item href="/Projects">Projects <i class="fas fa-angle-down"></i></b-nav-item>
             <b-nav-item href="#">Services <i class="fas fa-angle-down"></i></b-nav-item>
             <b-nav-item href="/team">Team  <i class="fas fa-angle-down"></i></b-nav-item>
-            <b-nav-item href="#">Clients <i class="fas fa-angle-down"></i></b-nav-item>
+            <b-nav-item href="/clients">Clients <i class="fas fa-angle-down"></i></b-nav-item>
             <b-nav-item href="/join-us">Join us <i class="fas fa-angle-down"></i></b-nav-item>
-            <b-nav-item href="#">About us <i class="fas fa-angle-down"></i></b-nav-item>
+            <b-nav-item href="/about-us">About us <i class="fas fa-angle-down"></i></b-nav-item>
             <b-nav-item href="/contact">Contact us <i class="fas fa-angle-down"></i></b-nav-item>
           </b-navbar-nav>
         </b-collapse>
@@ -46,9 +46,9 @@
             <b-nav-item href="/projects">المشاريع</b-nav-item>
             <b-nav-item href="/sad">الخدمات</b-nav-item>
             <b-nav-item href="/team">الفريق</b-nav-item>
-            <b-nav-item href="/asd">العملاء</b-nav-item>
+            <b-nav-item href="/clients">العملاء</b-nav-item>
             <b-nav-item href="/join-us">انضم إلينا</b-nav-item>
-            <b-nav-item href="/sad">معلومات عنا</b-nav-item>
+            <b-nav-item href="/about-us">معلومات عنا</b-nav-item>
             <b-nav-item href="/contact">اتصل بنا</b-nav-item>
           </b-navbar-nav>
 
